@@ -1,0 +1,7 @@
+#!/bin/bash
+
+chkconfig iptables off
+mv /etc/selinux/config /etc/selinux/config.ori
+cp ./config /etc/selinux/config
+yum -y update
+reboot

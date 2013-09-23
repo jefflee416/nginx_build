@@ -1,0 +1,5 @@
+#!/bin/bash
+
+yum -y install openssl-devel mysql-devel libselinux e2fsprogs krb5-devel libss libsepol-devel libselinux-devel keyutils-libs-devel e2fsprogs-libs openssl libcom_err-devel krb5-libs libselinux libcom_err mysql-libs mysql autoconf bind-utils bind-libs make libxml2-devel zlib-devel libxml2 pcre-devel httpd-devel db4-devel apr-util-devel db4-cxx openldap-devel expat-devel cyrus-sasl-devel httpd mailcap httpd-tools apr-util-ldap apr-devel pkgconfig openldap apr-util apr perl perl-version perl-Pod-Simple perl-Pod-Escapes perl-Module-Pluggable perl-libs gcc glibc-devel kernel-headers glibc-headers ppl cloog-ppl libgomp cpp mpfr glibc-common glibc wget telnet gpg-pubkey
+
+reboot
